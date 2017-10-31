@@ -3,9 +3,9 @@ import ReactDom from 'react-dom'
 const Action = (props) => {
 	return (
 		<div>
-		<button onClick={props.handlePick}
+		<button className="big-button" onClick={props.handlePick}
 		disabled={!props.hasOptions}>
-		What?</button>
+		What Should I Do?</button>
 		</div>
 		)
 }
